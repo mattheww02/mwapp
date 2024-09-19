@@ -13,5 +13,12 @@ const Header = () => {
     </header>
   );
 };
+// const [isDarkMode, setIsDarkMode] = useState(false);
+
+// return (
+//   <button onClick={() => setIsDarkMode(!isDarkMode)}>
+//     Toggle Dark Mode
+//   </button>
+// );
 
 export default Header;
