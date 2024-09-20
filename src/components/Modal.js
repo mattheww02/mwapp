@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Modal = ({ title, content, imageUrl, modalId }) => {
+const Modal = ({ title, modalId, children }) => {
   return (
     <div className="portfolio-modal modal fade" id={modalId} tabIndex="-1" aria-labelledby={modalId} aria-hidden="true">
       <div className="modal-dialog modal-xl">
@@ -16,8 +16,9 @@ const Modal = ({ title, content, imageUrl, modalId }) => {
                   <div className="divider-custom">
                     <div className="divider-custom-line" style={{ maxWidth: "25rem" }}></div>
                   </div>
-                  <img className="img-fluid rounded mb-5" src={imageUrl} alt={title} />
-                  <p className="mb-4">{content}</p>
+                  
+                  {children}
+
                   <button className="btn btn-primary" data-bs-dismiss="modal">
                     <i className="fas fa-xmark fa-fw"></i>
                     Close Window

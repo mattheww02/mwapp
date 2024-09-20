@@ -39,7 +39,7 @@ function App() {
   return (
     <div>
       <Navigation />
-      <header className="masthead bg-primary text-white text-center" style={{ backgroundImage: `url(${pattern})`, backgroundSize: 'cover' }}>
+      <header className="masthead bg-primary text-white text-center" style={{ backgroundImage: `url(${pattern})`, backgroundSize: 'cover' }} id="page-top">
         <div className="container d-flex align-items-center flex-column">
           <h1 className="masthead-heading text-uppercase mb-0">Matthew Wight</h1>
           <div className="divider-custom divider-light">
