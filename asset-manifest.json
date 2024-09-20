@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/mwapp/static/css/main.b2cd6922.chunk.css",
-    "main.js": "/mwapp/static/js/main.54fff36e.chunk.js",
-    "main.js.map": "/mwapp/static/js/main.54fff36e.chunk.js.map",
-    "runtime-main.js": "/mwapp/static/js/runtime-main.ad236e05.js",
-    "runtime-main.js.map": "/mwapp/static/js/runtime-main.ad236e05.js.map",
+    "main.js": "/mwapp/static/js/main.52284c34.chunk.js",
+    "main.js.map": "/mwapp/static/js/main.52284c34.chunk.js.map",
+    "runtime-main.js": "/mwapp/static/js/runtime-main.b670d0ff.js",
+    "runtime-main.js.map": "/mwapp/static/js/runtime-main.b670d0ff.js.map",
     "static/css/2.b71989ea.chunk.css": "/mwapp/static/css/2.b71989ea.chunk.css",
-    "static/js/2.69e2c14b.chunk.js": "/mwapp/static/js/2.69e2c14b.chunk.js",
-    "static/js/2.69e2c14b.chunk.js.map": "/mwapp/static/js/2.69e2c14b.chunk.js.map",
-    "static/js/3.c6dcb7b3.chunk.js": "/mwapp/static/js/3.c6dcb7b3.chunk.js",
-    "static/js/3.c6dcb7b3.chunk.js.map": "/mwapp/static/js/3.c6dcb7b3.chunk.js.map",
+    "static/js/2.fcf68090.chunk.js": "/mwapp/static/js/2.fcf68090.chunk.js",
+    "static/js/2.fcf68090.chunk.js.map": "/mwapp/static/js/2.fcf68090.chunk.js.map",
+    "static/js/3.26b086f1.chunk.js": "/mwapp/static/js/3.26b086f1.chunk.js",
+    "static/js/3.26b086f1.chunk.js.map": "/mwapp/static/js/3.26b086f1.chunk.js.map",
     "index.html": "/mwapp/index.html",
-    "precache-manifest.3063e8d59e9d5f5c01dac39134c8708c.js": "/mwapp/precache-manifest.3063e8d59e9d5f5c01dac39134c8708c.js",
+    "precache-manifest.85e88515f393a3aeb07e7fcebcb23cf5.js": "/mwapp/precache-manifest.85e88515f393a3aeb07e7fcebcb23cf5.js",
     "service-worker.js": "/mwapp/service-worker.js",
     "static/css/2.b71989ea.chunk.css.map": "/mwapp/static/css/2.b71989ea.chunk.css.map",
     "static/css/main.b2cd6922.chunk.css.map": "/mwapp/static/css/main.b2cd6922.chunk.css.map",
-    "static/js/2.69e2c14b.chunk.js.LICENSE.txt": "/mwapp/static/js/2.69e2c14b.chunk.js.LICENSE.txt",
+    "static/js/2.fcf68090.chunk.js.LICENSE.txt": "/mwapp/static/js/2.fcf68090.chunk.js.LICENSE.txt",
+    "static/media/ao_input.png": "/mwapp/static/media/ao_input.27102d0e.png",
+    "static/media/ao_ui.png": "/mwapp/static/media/ao_ui.c926d8d7.png",
     "static/media/auctionbot.png": "/mwapp/static/media/auctionbot.771f4a46.png",
     "static/media/autoosint.png": "/mwapp/static/media/autoosint.ee20b5b2.png",
     "static/media/compiler.png": "/mwapp/static/media/compiler.edff98bd.png",
@@ -26,10 +28,10 @@
     "static/media/tils.png": "/mwapp/static/media/tils.406c0771.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad236e05.js",
+    "static/js/runtime-main.b670d0ff.js",
     "static/css/2.b71989ea.chunk.css",
-    "static/js/2.69e2c14b.chunk.js",
+    "static/js/2.fcf68090.chunk.js",
     "static/css/main.b2cd6922.chunk.css",
-    "static/js/main.54fff36e.chunk.js"
+    "static/js/main.52284c34.chunk.js"
   ]
 }
