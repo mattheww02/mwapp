@@ -1,8 +1,8 @@
 {
   "name": "mwapp",
   "version": "0.1.0",
-  "homepage": "./",
-  "private": false,
+  "homepage": "https://mattheww02.github.io/mwapp",
+  "private": true,
   "dependencies": {
     "16": "^0.0.2",
     "@testing-library/jest-dom": "^5.17.0",
