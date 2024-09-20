@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64b10cc7c31683898901a5353fd32773",
+    "revision": "75ee7a7ca5967ac3cd1fb6836b4d0a11",
     "url": "/mwapp/index.html"
   },
   {
-    "revision": "a8c4db590bc2a8bd19fb",
+    "revision": "e49252113fecf83955c0",
     "url": "/mwapp/static/css/2.b71989ea.chunk.css"
   },
   {
-    "revision": "e3672f9d39bdd126d97d",
+    "revision": "5f54529d032227f35172",
     "url": "/mwapp/static/css/main.f1c3b838.chunk.css"
   },
   {
-    "revision": "a8c4db590bc2a8bd19fb",
-    "url": "/mwapp/static/js/2.c5fdaea7.chunk.js"
+    "revision": "e49252113fecf83955c0",
+    "url": "/mwapp/static/js/2.4f26b669.chunk.js"
   },
   {
     "revision": "60f6bf9e100e456690e9ab6c9a37bfc2",
-    "url": "/mwapp/static/js/2.c5fdaea7.chunk.js.LICENSE.txt"
+    "url": "/mwapp/static/js/2.4f26b669.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aceea9114adb6f440d33",
-    "url": "/mwapp/static/js/3.26b086f1.chunk.js"
+    "revision": "e57def09a929de11516e",
+    "url": "/mwapp/static/js/3.1a921236.chunk.js"
   },
   {
-    "revision": "e3672f9d39bdd126d97d",
-    "url": "/mwapp/static/js/main.22d9d83c.chunk.js"
+    "revision": "5f54529d032227f35172",
+    "url": "/mwapp/static/js/main.22d955a2.chunk.js"
   },
   {
-    "revision": "0af332ed989e6facf373",
-    "url": "/mwapp/static/js/runtime-main.b670d0ff.js"
+    "revision": "9ae540ee280cc0b40603",
+    "url": "/mwapp/static/js/runtime-main.3ba935b2.js"
   },
   {
     "revision": "27102d0e7372881b25ae2d4fcf087fb1",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mwapp/static/media/compiler.edff98bd.png"
   },
   {
+    "revision": "f586e69bf826887828c1af3a18d5ec28",
+    "url": "/mwapp/static/media/digipath_overlay.f586e69b.png"
+  },
+  {
     "revision": "2d342867b6dc8d90583a793f2335e4fa",
     "url": "/mwapp/static/media/game.2d342867.png"
   },
@@ -70,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "945b514d4d41ae515f4821d32c7bdb36",
     "url": "/mwapp/static/media/sent.945b514d.png"
+  },
+  {
+    "revision": "5a1ac7766150af7220cff3bc3cb8a26a",
+    "url": "/mwapp/static/media/sent_graph.5a1ac776.png"
   },
   {
     "revision": "37ca9ff76782e7c48c6598c5bf3d9e2d",
