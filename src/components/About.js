@@ -12,11 +12,11 @@ const About = () => {
         </div>
         
         <div class="row">
-            <div class="col-lg-4 ms-auto"><p class="lead">Recently graduated Computer Science Master’s student keen to be challenged and make an impact in the field of software
+            <div class="col-lg-4 ms-auto"><p class="lead">I recently graduated with an MEng in Computer Science from the University of Warwick and I'm looking to be challenged and make an impact in the field of software
 development. </p></div>
-            <div class="col-lg-4 ms-auto"><p class="lead">Conscientious, hard-working and enthusiastic with an excellent academic record and several periods of
+            <div class="col-lg-4 ms-auto"><p class="lead">I'm conscientious, hard-working and enthusiastic with an excellent academic record and several periods of
             experience working and volunteering in a wide variety of roles.</p></div>
-            <div class="col-lg-4 me-auto"><p class="lead">Relevant experience with software development, project
+            <div class="col-lg-4 me-auto"><p class="lead">I have relevant experience with software development, project
             management, computer networks, machine learning and full stack development.</p></div>
         </div>
       

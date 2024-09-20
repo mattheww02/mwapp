@@ -8,6 +8,8 @@ import compilerImg from '../assets/img/projects/compiler.png';
 import gameImg from '../assets/img/projects/game.png';
 import gameplayGif from '../assets/img/projects/gameplay.gif';
 import moreGameplayGif from '../assets/img/projects/more_gameplay.gif';
+import aoGuiImg from '../assets/img/projects/ao_ui.png';
+import aoInput from '../assets/img/projects/ao_input.png';
 
 const ModalList = () => {
   const modals = [
@@ -16,7 +18,24 @@ const ModalList = () => {
         title: 'AutoOSINT',
         content: (
             <>
-                <img src={aoImg} alt="AutoOSINT" className="img-fluid mb-4" />
+                <p>
+                    AutoOSINT is a user-friendly desktop app capable of performing image geolocation OSINT by identifying various visual clues 
+                    in an image. This includes detecting famous landmarks, road signs, mountains and car number plates.
+                </p>
+                <img src={aoInput} alt="AutoOSINT Results Page" className="img-fluid mb-4" />
+                <p>
+                    It's built with Electron, Django and React to make it easily portable to the web.
+                    We used APIs from cloud services including AWS, GCP and Azure to make the image analysis process fast and robust.
+                </p>
+                <img src={aoGuiImg} alt="AutoOSINT Results Page" className="img-fluid mb-4" />
+                <p>
+                    Integration with OpenStreetMaps allows users to use an interactive map to see AutoOSINT's predictions as they're calculated.
+                </p>
+                <p>
+                    Take a look at our <a href={`${process.env.PUBLIC_URL}/auto_osint_final_report.pdf`}>final report</a>, 
+                    or my <a href={`${process.env.PUBLIC_URL}/auto_osint_solo_report.pdf`}>individual report</a>. 
+                    You can also view our Github repo <a href="https://gitfront.io/r/danfredrickson/3uR1cB4TDZx5/AutomatedOSINT/">here</a>.
+                </p>
             </>
         ),
         imageUrl: aoImg 
@@ -26,7 +45,10 @@ const ModalList = () => {
         title: 'Auction Bot', 
         content: (
             <>
-                <img src={auctionImg} alt="Auction Bot" className="img-fluid mb-4" />
+                <p>
+                    <img src={auctionImg} alt="Auction Bot" className="img-fluid mb-4" />
+                    View the report <a href={`${process.env.PUBLIC_URL}/auction_bot_report.pdf`}>here</a>.
+                </p>
             </>
         ), 
         imageUrl: auctionImg 
