@@ -7,19 +7,6 @@ import compilerImg from '../assets/img/projects/compiler.png';
 import gameImg from '../assets/img/projects/game.png';
 
 const Projects = () => {
-  const projectList = [
-    {
-      title: 'Automated Geolocation OSINT',
-      description: 'A deep learning system to identify and geolocate street signs, car number plates, and landmarks.',
-      link: 'https://github.com/your-project',
-    },
-    {
-      title: 'Sentiment Analysis of Political News Articles',
-      description: 'A deep learning model that predicts sentiment with 95% accuracy.',
-      link: 'https://github.com/your-project',
-    }
-  ];
-
   return (
     <section class="page-section portfolio" id="projects">
             <div class="container">
@@ -33,7 +20,7 @@ const Projects = () => {
                 <div class="row justify-content-center">
                
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">Automated Image Geolocation</div>
                             </div>
@@ -42,7 +29,7 @@ const Projects = () => {
                     </div>
                    
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">Auction Bid Optimisation</div>
                             </div>
@@ -51,7 +38,7 @@ const Projects = () => {
                     </div>
              
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">Digital Pathology Neural Network</div>
                             </div>
@@ -60,7 +47,7 @@ const Projects = () => {
                     </div>
                  
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">Sentiment Analysis of News Articles</div>
                             </div>
@@ -69,7 +56,7 @@ const Projects = () => {
                     </div>
                  
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">Recursive Descent C Compiler</div>
                             </div>
@@ -78,7 +65,7 @@ const Projects = () => {
                     </div>
                  
                     <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">2D Shooter Game</div>
                             </div>
