@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import trianglify from 'trianglify';
 
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
 import Navigation from './components/Navigation';
 import Projects from './components/Projects';
 import About from './components/About';
+import Footer from './components/Footer';
+import Modal1 from './components/Modal1';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
@@ -51,9 +51,13 @@ function App() {
       <div id="projects">
         <Projects />
       </div>
-      <div>
+      <div id="about">
         <About />
       </div>
+      <div id="footer">
+        <Footer />
+      </div>
+      <Modal1 />
     </div>
   );
 }

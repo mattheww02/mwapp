@@ -3,8 +3,8 @@ import aoImg from '../assets/img/projects/autoosint.png';
 import auctionImg from '../assets/img/projects/auctionbot.png';
 import tilsImg from '../assets/img/projects/tils.png';
 import sentImg from '../assets/img/projects/sent.png';
-import safeImg from '../assets/img/portfolio/safe.png';
-import submarineImg from '../assets/img/portfolio/submarine.png';
+import compilerImg from '../assets/img/projects/compiler.png';
+import gameImg from '../assets/img/projects/game.png';
 
 const Projects = () => {
   const projectList = [
@@ -35,7 +35,7 @@ const Projects = () => {
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Automated Image Geolocation<i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Automated Image Geolocation</div>
                             </div>
                             <img class="img-fluid" src={aoImg} alt="..." />
                         </div>
@@ -44,7 +44,7 @@ const Projects = () => {
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Auction Bid Optimisation<i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Auction Bid Optimisation</div>
                             </div>
                             <img class="img-fluid" src={auctionImg} alt="..." />
                         </div>
@@ -53,7 +53,7 @@ const Projects = () => {
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Digital Pathology Neural Network<i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Digital Pathology Neural Network</div>
                             </div>
                             <img class="img-fluid" src={tilsImg} alt="..." />
                         </div>
@@ -62,7 +62,7 @@ const Projects = () => {
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Sentiment Analysis of News Articles<i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Sentiment Analysis of News Articles</div>
                             </div>
                             <img class="img-fluid" src={sentImg} alt="..." />
                         </div>
@@ -71,18 +71,18 @@ const Projects = () => {
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Recursive Descent C Compiler</div>
                             </div>
-                            <img class="img-fluid" src={safeImg} alt="..." />
+                            <img class="img-fluid" src={compilerImg} alt="..." />
                         </div>
                     </div>
                  
                     <div class="col-md-6 col-lg-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">2D Shooter Game</div>
                             </div>
-                            <img class="img-fluid" src={submarineImg} alt="..." />
+                            <img class="img-fluid" src={gameImg} alt="..." />
                         </div>
                     </div>
                 </div>
