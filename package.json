@@ -1,7 +1,7 @@
 {
   "name": "mwapp",
   "version": "0.1.0",
-  "homepage": "http://mattheww02.github.io/mwapp",
+  "homepage": "https://mattheww02.github.io/mwapp",
   "private": true,
   "dependencies": {
     "16": "^0.0.2",
@@ -12,7 +12,10 @@
     "ajv-keywords": "^5.1.0",
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.2",
     "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -45,5 +48,4 @@
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
-  
 }
