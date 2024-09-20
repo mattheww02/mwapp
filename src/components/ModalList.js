@@ -79,10 +79,6 @@ const ModalList = () => {
     <div>
       {modals.map((modal, index) => (
         <div key={index}>
-          <div className="portfolio-item" data-bs-toggle="modal" data-bs-target={`#${modal.id}`}>
-            <h3>{modal.title}</h3>
-            <img src={aoImg} alt={modal.title} />
-          </div>
           <Modal title={modal.title} modalId={modal.id}>
             {modal.content}
           </Modal>
