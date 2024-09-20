@@ -11,19 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
   const [pattern, setPattern] = useState(null);
-
-  useEffect(() => {
-    const savedMode = localStorage.getItem('darkMode') === 'true';
-    setIsDarkMode(savedMode);
-  }, []);
-
-  const toggleDarkMode = () => {
-    const newMode = !isDarkMode;
-    setIsDarkMode(newMode);
-    localStorage.setItem('darkMode', newMode);
-  };
 
   useEffect(() => {
     const newPattern = trianglify({
