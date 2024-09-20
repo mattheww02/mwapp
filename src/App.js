@@ -5,7 +5,8 @@ import trianglify from 'trianglify';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import Navigation from './components/Navigation';
-import MyButton from './components/MyButton';
+import Projects from './components/Projects';
+import About from './components/About';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
@@ -42,19 +43,20 @@ function App() {
         <Navigation />
         <header className="masthead bg-primary text-white text-center" style={{ backgroundImage: `url(${pattern})`, backgroundSize: 'cover' }}>
           <div className="container d-flex align-items-center flex-column">
-            <h1 className="masthead-heading text-uppercase mb-0">My Website</h1>
+            <h1 className="masthead-heading text-uppercase mb-0">Matthew Wight</h1>
             <div className="divider-custom divider-light">
-              <div className="divider-custom-line" style={{ width: "500%", maxWidth: "25rem" }}></div>
+              <div className="divider-custom-line" style={{ maxWidth: "35rem" }}></div>
             </div>
-            <p className="masthead-subheading font-weight-light mb-0"></p>
+            <p className="masthead-subheading font-weight-light mb-0">MEng Computer Science - Graduate Software Engineer</p>
           </div>
         </header>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/about" element={About} />
         </Routes>
       </Router>
-      <HomePage/>
+      <Projects/>
+      <About/>
     </div>
   );
 }

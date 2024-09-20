@@ -1,4 +1,10 @@
 import React from 'react';
+import aoImg from '../assets/img/projects/autoosint.png';
+import auctionImg from '../assets/img/projects/auctionbot.png';
+import tilsImg from '../assets/img/projects/tils.png';
+import sentImg from '../assets/img/projects/sent.png';
+import safeImg from '../assets/img/portfolio/safe.png';
+import submarineImg from '../assets/img/portfolio/submarine.png';
 
 const Projects = () => {
   const projectList = [
@@ -15,20 +21,73 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects">
-      <h2>Projects</h2>
-      <div>
-        {projectList.map((project, index) => (
-          <div key={index}>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              View Project
-            </a>
-          </div>
-        ))}
-      </div>
-    </section>
+    <section class="page-section portfolio" id="projects">
+            <div class="container">
+            
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
+                
+                <div class="divider-custom">
+                    <div class="divider-custom-line" style={{ maxWidth: "15rem" }}></div>
+                </div>
+             
+                <div class="row justify-content-center">
+               
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Automated Image Geolocation<i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src={aoImg} alt="..." />
+                        </div>
+                    </div>
+                   
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Auction Bid Optimisation<i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src={auctionImg} alt="..." />
+                        </div>
+                    </div>
+             
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Digital Pathology Neural Network<i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src={tilsImg} alt="..." />
+                        </div>
+                    </div>
+                 
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Sentiment Analysis of News Articles<i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src={sentImg} alt="..." />
+                        </div>
+                    </div>
+                 
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src={safeImg} alt="..." />
+                        </div>
+                    </div>
+                 
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src={submarineImg} alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
   );
 };
 

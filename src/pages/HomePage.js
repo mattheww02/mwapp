@@ -9,8 +9,8 @@ import Contact from '../components/Contact';
 const HomePage = () => {
     return (
         <div className="page-section">
-            <Header /> 
-            <About />
+            {/* <Header /> 
+            <About /> */}
             <Projects />
             <Skills />
             <Contact />
