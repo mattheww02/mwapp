@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import trianglify from 'trianglify';
 
 import HomePage from './pages/HomePage';
@@ -39,24 +38,22 @@ function App() {
 
   return (
     <div>
-      <Router>
-        <Navigation />
-        <header className="masthead bg-primary text-white text-center" style={{ backgroundImage: `url(${pattern})`, backgroundSize: 'cover' }}>
-          <div className="container d-flex align-items-center flex-column">
-            <h1 className="masthead-heading text-uppercase mb-0">Matthew Wight</h1>
-            <div className="divider-custom divider-light">
-              <div className="divider-custom-line" style={{ maxWidth: "35rem" }}></div>
-            </div>
-            <p className="masthead-subheading font-weight-light mb-0">MEng Computer Science - Graduate Software Engineer</p>
+      <Navigation />
+      <header className="masthead bg-primary text-white text-center" style={{ backgroundImage: `url(${pattern})`, backgroundSize: 'cover' }}>
+        <div className="container d-flex align-items-center flex-column">
+          <h1 className="masthead-heading text-uppercase mb-0">Matthew Wight</h1>
+          <div className="divider-custom divider-light">
+            <div className="divider-custom-line" style={{ maxWidth: "35rem" }}></div>
           </div>
-        </header>
-        <Routes>
-          <Route path="/projects" component={Projects} />
-          <Route path="/about" element={About} />
-        </Routes>
-      </Router>
-      <Projects/>
-      <About/>
+          <p className="masthead-subheading font-weight-light mb-0">MEng Computer Science - Graduate Software Engineer</p>
+        </div>
+      </header>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div>
+        <About />
+      </div>
     </div>
   );
 }
