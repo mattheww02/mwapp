@@ -1,33 +1,33 @@
 {
   "files": {
     "main.css": "/mwapp/static/css/main.b2cd6922.chunk.css",
-    "main.js": "/mwapp/static/js/main.69795157.chunk.js",
-    "main.js.map": "/mwapp/static/js/main.69795157.chunk.js.map",
+    "main.js": "/mwapp/static/js/main.116102aa.chunk.js",
+    "main.js.map": "/mwapp/static/js/main.116102aa.chunk.js.map",
     "runtime-main.js": "/mwapp/static/js/runtime-main.9564535d.js",
     "runtime-main.js.map": "/mwapp/static/js/runtime-main.9564535d.js.map",
     "static/css/2.b71989ea.chunk.css": "/mwapp/static/css/2.b71989ea.chunk.css",
-    "static/js/2.92c97b81.chunk.js": "/mwapp/static/js/2.92c97b81.chunk.js",
-    "static/js/2.92c97b81.chunk.js.map": "/mwapp/static/js/2.92c97b81.chunk.js.map",
+    "static/js/2.ffe7db4d.chunk.js": "/mwapp/static/js/2.ffe7db4d.chunk.js",
+    "static/js/2.ffe7db4d.chunk.js.map": "/mwapp/static/js/2.ffe7db4d.chunk.js.map",
     "static/js/3.cfa44d55.chunk.js": "/mwapp/static/js/3.cfa44d55.chunk.js",
     "static/js/3.cfa44d55.chunk.js.map": "/mwapp/static/js/3.cfa44d55.chunk.js.map",
     "index.html": "/mwapp/index.html",
-    "precache-manifest.b1f15a2eebb70768550dcd282b5be00d.js": "/mwapp/precache-manifest.b1f15a2eebb70768550dcd282b5be00d.js",
+    "precache-manifest.6120692c7778ebd7d4db4d3d35370cd4.js": "/mwapp/precache-manifest.6120692c7778ebd7d4db4d3d35370cd4.js",
     "service-worker.js": "/mwapp/service-worker.js",
     "static/css/2.b71989ea.chunk.css.map": "/mwapp/static/css/2.b71989ea.chunk.css.map",
     "static/css/main.b2cd6922.chunk.css.map": "/mwapp/static/css/main.b2cd6922.chunk.css.map",
-    "static/js/2.92c97b81.chunk.js.LICENSE.txt": "/mwapp/static/js/2.92c97b81.chunk.js.LICENSE.txt",
+    "static/js/2.ffe7db4d.chunk.js.LICENSE.txt": "/mwapp/static/js/2.ffe7db4d.chunk.js.LICENSE.txt",
     "static/media/auctionbot.png": "/mwapp/static/media/auctionbot.771f4a46.png",
     "static/media/autoosint.png": "/mwapp/static/media/autoosint.ee20b5b2.png",
-    "static/media/safe.png": "/mwapp/static/media/safe.7dfdcf55.png",
+    "static/media/compiler.png": "/mwapp/static/media/compiler.edff98bd.png",
+    "static/media/game.png": "/mwapp/static/media/game.2d342867.png",
     "static/media/sent.png": "/mwapp/static/media/sent.945b514d.png",
-    "static/media/submarine.png": "/mwapp/static/media/submarine.8fad4ff9.png",
     "static/media/tils.png": "/mwapp/static/media/tils.406c0771.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9564535d.js",
     "static/css/2.b71989ea.chunk.css",
-    "static/js/2.92c97b81.chunk.js",
+    "static/js/2.ffe7db4d.chunk.js",
     "static/css/main.b2cd6922.chunk.css",
-    "static/js/main.69795157.chunk.js"
+    "static/js/main.116102aa.chunk.js"
   ]
 }
