@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/mwapp/static/css/main.b2cd6922.chunk.css",
-    "main.js": "/mwapp/static/js/main.52284c34.chunk.js",
-    "main.js.map": "/mwapp/static/js/main.52284c34.chunk.js.map",
+    "main.css": "/mwapp/static/css/main.f1c3b838.chunk.css",
+    "main.js": "/mwapp/static/js/main.22d9d83c.chunk.js",
+    "main.js.map": "/mwapp/static/js/main.22d9d83c.chunk.js.map",
     "runtime-main.js": "/mwapp/static/js/runtime-main.b670d0ff.js",
     "runtime-main.js.map": "/mwapp/static/js/runtime-main.b670d0ff.js.map",
     "static/css/2.b71989ea.chunk.css": "/mwapp/static/css/2.b71989ea.chunk.css",
-    "static/js/2.fcf68090.chunk.js": "/mwapp/static/js/2.fcf68090.chunk.js",
-    "static/js/2.fcf68090.chunk.js.map": "/mwapp/static/js/2.fcf68090.chunk.js.map",
+    "static/js/2.c5fdaea7.chunk.js": "/mwapp/static/js/2.c5fdaea7.chunk.js",
+    "static/js/2.c5fdaea7.chunk.js.map": "/mwapp/static/js/2.c5fdaea7.chunk.js.map",
     "static/js/3.26b086f1.chunk.js": "/mwapp/static/js/3.26b086f1.chunk.js",
     "static/js/3.26b086f1.chunk.js.map": "/mwapp/static/js/3.26b086f1.chunk.js.map",
     "index.html": "/mwapp/index.html",
-    "precache-manifest.85e88515f393a3aeb07e7fcebcb23cf5.js": "/mwapp/precache-manifest.85e88515f393a3aeb07e7fcebcb23cf5.js",
+    "precache-manifest.120a05500ef17db0f37cd2ebef94995d.js": "/mwapp/precache-manifest.120a05500ef17db0f37cd2ebef94995d.js",
     "service-worker.js": "/mwapp/service-worker.js",
     "static/css/2.b71989ea.chunk.css.map": "/mwapp/static/css/2.b71989ea.chunk.css.map",
-    "static/css/main.b2cd6922.chunk.css.map": "/mwapp/static/css/main.b2cd6922.chunk.css.map",
-    "static/js/2.fcf68090.chunk.js.LICENSE.txt": "/mwapp/static/js/2.fcf68090.chunk.js.LICENSE.txt",
+    "static/css/main.f1c3b838.chunk.css.map": "/mwapp/static/css/main.f1c3b838.chunk.css.map",
+    "static/js/2.c5fdaea7.chunk.js.LICENSE.txt": "/mwapp/static/js/2.c5fdaea7.chunk.js.LICENSE.txt",
     "static/media/ao_input.png": "/mwapp/static/media/ao_input.27102d0e.png",
     "static/media/ao_ui.png": "/mwapp/static/media/ao_ui.c926d8d7.png",
     "static/media/auctionbot.png": "/mwapp/static/media/auctionbot.771f4a46.png",
@@ -24,14 +24,16 @@
     "static/media/game.png": "/mwapp/static/media/game.2d342867.png",
     "static/media/gameplay.gif": "/mwapp/static/media/gameplay.75c97cf4.gif",
     "static/media/more_gameplay.gif": "/mwapp/static/media/more_gameplay.d93f66a4.gif",
+    "static/media/rocket.gif": "/mwapp/static/media/rocket.c8debbd5.gif",
     "static/media/sent.png": "/mwapp/static/media/sent.945b514d.png",
+    "static/media/sent_map.png": "/mwapp/static/media/sent_map.37ca9ff7.png",
     "static/media/tils.png": "/mwapp/static/media/tils.406c0771.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b670d0ff.js",
     "static/css/2.b71989ea.chunk.css",
-    "static/js/2.fcf68090.chunk.js",
-    "static/css/main.b2cd6922.chunk.css",
-    "static/js/main.52284c34.chunk.js"
+    "static/js/2.c5fdaea7.chunk.js",
+    "static/css/main.f1c3b838.chunk.css",
+    "static/js/main.22d9d83c.chunk.js"
   ]
 }
