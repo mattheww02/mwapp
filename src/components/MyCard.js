@@ -3,7 +3,7 @@ import { Card, Button } from 'react-bootstrap';
 
 const MyCard = ({titleText, bodyText, buttonText}) => {
     return (
-        <Card className="my-card" style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }}>
             <Card.Body>
                 <Card.Title>{titleText}</Card.Title>
                 <Card.Text>

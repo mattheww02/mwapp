@@ -8,7 +8,7 @@ import Contact from '../components/Contact';
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="page-section">
             <Header /> 
             <About />
             <Projects />
