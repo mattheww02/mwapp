@@ -21,7 +21,7 @@ development. </p></div>
         </div>
       
         <div class="text-center mt-4">
-            <a class="btn btn-xl btn-outline-light" href="%PUBLIC_URL%/cv_matthew_wight.pdf" download>
+            <a class="btn btn-xl btn-outline-light" href={`${process.env.PUBLIC_URL}/cv_matthew_wight.pdf`} download>
                 <i class="fas fa-download me-2"></i>
                 Download My CV!
             </a>
