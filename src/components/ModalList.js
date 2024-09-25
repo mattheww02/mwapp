@@ -14,6 +14,8 @@ import aoGuiImg from '../assets/img/projects/ao_ui.png';
 import aoInput from '../assets/img/projects/ao_input.png';
 import sentMap from '../assets/img/projects/sent_map.png';
 import sentGraph from '../assets/img/projects/sent_graph.png';
+import chessImg from '../assets/img/projects/chessbot.png';
+import chessGif from '../assets/img/projects/chess.gif';
 
 const ModalList = () => {
   const modals = [
@@ -165,6 +167,27 @@ const ModalList = () => {
         ), 
         imageUrl: gameImg
     },
+    {
+        id: 'modal7',
+        title: 'AI Chess Engine',
+        content: (
+            <>
+                <img src={chessGif} alt="Chess Gameplay GIF" className="img-fluid mb-4" />
+                <p style={{ textAlign: "justify" }}>
+                    This project features a chess-playing AI which uses a minimax algorithm combined with piece square tables, a transposition table and several other techniques to calculate the strongest chess moves.
+                    In testing against other bots, the engine was able to play to an estimated rating of 2000 elo (98th percentile of chess players).
+                </p>
+                <p style={{ textAlign: "justify" }}>
+                    There is also a custom-built GUI and the ability to play against the bot, either as a human or with another chess engine.
+                    The entire project is written in Java, with Swing used to create the GUI, the Chesspresso library to encode moves and positions, and Maven for build management.
+                </p>
+                <p style={{ textAlign: "justify" }}>
+                    To see the project in more detail or try to beat the engine in a game, visit the Github repo <a href="https://github.com/mattheww02/chessbot">here</a>.
+                </p>
+            </>
+        ),
+        imageUrl: chessImg
+    }
   ];
 
   return (
