@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b8eb3a9b0b438bbf4934e414e3a62a8",
+    "revision": "d134d2b75dc6335eab4f56320ebdd108",
     "url": "/mwapp/index.html"
   },
   {
-    "revision": "e49252113fecf83955c0",
+    "revision": "0b4eca262b5377594093",
     "url": "/mwapp/static/css/2.b71989ea.chunk.css"
   },
   {
-    "revision": "d9c3cbc03c59a6fe4de5",
+    "revision": "a6e12fd782be4ed785e1",
     "url": "/mwapp/static/css/main.f1c3b838.chunk.css"
   },
   {
-    "revision": "e49252113fecf83955c0",
-    "url": "/mwapp/static/js/2.4f26b669.chunk.js"
+    "revision": "0b4eca262b5377594093",
+    "url": "/mwapp/static/js/2.ea367927.chunk.js"
   },
   {
     "revision": "60f6bf9e100e456690e9ab6c9a37bfc2",
-    "url": "/mwapp/static/js/2.4f26b669.chunk.js.LICENSE.txt"
+    "url": "/mwapp/static/js/2.ea367927.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e57def09a929de11516e",
-    "url": "/mwapp/static/js/3.1a921236.chunk.js"
+    "revision": "9ca7d86541429c8c90e1",
+    "url": "/mwapp/static/js/3.ae798ee6.chunk.js"
   },
   {
-    "revision": "d9c3cbc03c59a6fe4de5",
-    "url": "/mwapp/static/js/main.5df9d4b3.chunk.js"
+    "revision": "a6e12fd782be4ed785e1",
+    "url": "/mwapp/static/js/main.8d7c7553.chunk.js"
   },
   {
-    "revision": "9ae540ee280cc0b40603",
-    "url": "/mwapp/static/js/runtime-main.3ba935b2.js"
+    "revision": "6900f1b01ae1553f7337",
+    "url": "/mwapp/static/js/runtime-main.580f039d.js"
   },
   {
     "revision": "27102d0e7372881b25ae2d4fcf087fb1",
@@ -48,6 +48,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mwapp/static/media/autoosint.ee20b5b2.png"
   },
   {
+    "revision": "c36eb55c2b8ce4b0886371036600978f",
+    "url": "/mwapp/static/media/chess.c36eb55c.gif"
+  },
+  {
+    "revision": "8dee59f57c894cef38cf5fd54565e5ba",
+    "url": "/mwapp/static/media/chessbot.8dee59f5.png"
+  },
+  {
     "revision": "edff98bd18f259099ccf8ccf0f449d3e",
     "url": "/mwapp/static/media/compiler.edff98bd.png"
   },
@@ -56,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mwapp/static/media/digipath_overlay.f586e69b.png"
   },
   {
-    "revision": "2d342867b6dc8d90583a793f2335e4fa",
-    "url": "/mwapp/static/media/game.2d342867.png"
+    "revision": "e5f75a74879f3bf7ecf2c1c02727ce04",
+    "url": "/mwapp/static/media/game.e5f75a74.png"
   },
   {
     "revision": "75c97cf427c24c943d2a404faf59db0a",
