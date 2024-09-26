@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mwapp/static/css/main.f1c3b838.chunk.css",
-    "main.js": "/mwapp/static/js/main.44131415.chunk.js",
-    "main.js.map": "/mwapp/static/js/main.44131415.chunk.js.map",
+    "main.js": "/mwapp/static/js/main.69b638d6.chunk.js",
+    "main.js.map": "/mwapp/static/js/main.69b638d6.chunk.js.map",
     "runtime-main.js": "/mwapp/static/js/runtime-main.580f039d.js",
     "runtime-main.js.map": "/mwapp/static/js/runtime-main.580f039d.js.map",
     "static/css/2.b71989ea.chunk.css": "/mwapp/static/css/2.b71989ea.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.ae798ee6.chunk.js": "/mwapp/static/js/3.ae798ee6.chunk.js",
     "static/js/3.ae798ee6.chunk.js.map": "/mwapp/static/js/3.ae798ee6.chunk.js.map",
     "index.html": "/mwapp/index.html",
-    "precache-manifest.d69c396890c38aa38cfe6902f1b05a1b.js": "/mwapp/precache-manifest.d69c396890c38aa38cfe6902f1b05a1b.js",
+    "precache-manifest.92d678ddf134506f21b5d113f2fa6d3b.js": "/mwapp/precache-manifest.92d678ddf134506f21b5d113f2fa6d3b.js",
     "service-worker.js": "/mwapp/service-worker.js",
     "static/css/2.b71989ea.chunk.css.map": "/mwapp/static/css/2.b71989ea.chunk.css.map",
     "static/css/main.f1c3b838.chunk.css.map": "/mwapp/static/css/main.f1c3b838.chunk.css.map",
@@ -24,20 +24,20 @@
     "static/media/chessbot.png": "/mwapp/static/media/chessbot.8dee59f5.png",
     "static/media/compiler.png": "/mwapp/static/media/compiler.edff98bd.png",
     "static/media/digipath_overlay.png": "/mwapp/static/media/digipath_overlay.f586e69b.png",
-    "static/media/game.png": "/mwapp/static/media/game.e5f75a74.png",
+    "static/media/game.png": "/mwapp/static/media/game.2b468ba9.png",
     "static/media/gameplay.gif": "/mwapp/static/media/gameplay.75c97cf4.gif",
     "static/media/more_gameplay.gif": "/mwapp/static/media/more_gameplay.d93f66a4.gif",
     "static/media/rocket.gif": "/mwapp/static/media/rocket.c8debbd5.gif",
     "static/media/sent.png": "/mwapp/static/media/sent.945b514d.png",
     "static/media/sent_graph.png": "/mwapp/static/media/sent_graph.5a1ac776.png",
     "static/media/sent_map.png": "/mwapp/static/media/sent_map.37ca9ff7.png",
-    "static/media/tils.png": "/mwapp/static/media/tils.406c0771.png"
+    "static/media/tils.png": "/mwapp/static/media/tils.75ac4c8b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.580f039d.js",
     "static/css/2.b71989ea.chunk.css",
     "static/js/2.ea367927.chunk.js",
     "static/css/main.f1c3b838.chunk.css",
-    "static/js/main.44131415.chunk.js"
+    "static/js/main.69b638d6.chunk.js"
   ]
 }

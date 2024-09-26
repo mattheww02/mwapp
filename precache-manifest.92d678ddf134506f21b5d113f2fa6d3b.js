@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cfca0daa3b0d6253c4e5c5db4bbfd682",
+    "revision": "122153df66bd047241ce1147db2ec9c5",
     "url": "/mwapp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mwapp/static/css/2.b71989ea.chunk.css"
   },
   {
-    "revision": "f5f8e4d596128ec38630",
+    "revision": "f3e4bd3bea783ec1bd2f",
     "url": "/mwapp/static/css/main.f1c3b838.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mwapp/static/js/3.ae798ee6.chunk.js"
   },
   {
-    "revision": "f5f8e4d596128ec38630",
-    "url": "/mwapp/static/js/main.44131415.chunk.js"
+    "revision": "f3e4bd3bea783ec1bd2f",
+    "url": "/mwapp/static/js/main.69b638d6.chunk.js"
   },
   {
     "revision": "6900f1b01ae1553f7337",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mwapp/static/media/digipath_overlay.f586e69b.png"
   },
   {
-    "revision": "e5f75a74879f3bf7ecf2c1c02727ce04",
-    "url": "/mwapp/static/media/game.e5f75a74.png"
+    "revision": "2b468ba9ae635610d0ad1a9ad97ad7b3",
+    "url": "/mwapp/static/media/game.2b468ba9.png"
   },
   {
     "revision": "75c97cf427c24c943d2a404faf59db0a",
@@ -92,7 +92,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mwapp/static/media/sent_map.37ca9ff7.png"
   },
   {
-    "revision": "406c0771083312e8a462ef39ad7e58e9",
-    "url": "/mwapp/static/media/tils.406c0771.png"
+    "revision": "75ac4c8bb32a32d8b32da8c221ba09aa",
+    "url": "/mwapp/static/media/tils.75ac4c8b.png"
   }
 ]);
