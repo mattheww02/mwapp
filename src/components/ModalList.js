@@ -16,6 +16,9 @@ import sentMap from '../assets/img/projects/sent_map.png';
 import sentGraph from '../assets/img/projects/sent_graph.png';
 import chessImg from '../assets/img/projects/chessbot.png';
 import chessGif from '../assets/img/projects/chess.gif';
+import physicsImg from '../assets/img/projects/physics.png';
+import physicsGif2 from '../assets/img/projects/physics2.gif';
+import physicsGif3 from '../assets/img/projects/physics3.gif';
 
 const ModalList = () => {
   const modals = [
@@ -187,6 +190,25 @@ const ModalList = () => {
             </>
         ),
         imageUrl: chessImg
+    },
+    {
+        id: 'modal8',
+        title: 'Physics Simulation',
+        content: (
+            <p>
+                <img src={physicsGif2} alt="Physics Simulation GIF" className="img-fluid mb-4" />
+                <p style={{ textAlign: "justify" }}>
+                    This project is a particle-based physics simulation written in C++, using OpenGL for graphics rendering.
+                    Particle motion is handled using Verlet integration, an efficient alternative to Euler methods.
+                </p>
+                <p style={{ textAlign: "justify" }}>
+                    The simulation can effortlessly handle over 10,000 particles, thanks to the use of thread pooling and spatial partitioning to maximise performance.
+                    To see the project in more detail, visit the Github repo <a href="https://github.com/mattheww02/simphysics">here</a>.
+                </p>
+                <img src={physicsGif3} alt="Physics Simulation GIF" className="img-fluid mb-4" />
+            </p>
+        ),
+        imageUrl: physicsImg
     }
   ];
 
