@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "122153df66bd047241ce1147db2ec9c5",
+    "revision": "27b040061e9b11c4b09bf45d40d07589",
     "url": "/mwapp/index.html"
   },
   {
-    "revision": "0b4eca262b5377594093",
+    "revision": "a1a49cbb7d83be463a5d",
     "url": "/mwapp/static/css/2.b71989ea.chunk.css"
   },
   {
-    "revision": "f3e4bd3bea783ec1bd2f",
+    "revision": "21882d830ef6fb504c1a",
     "url": "/mwapp/static/css/main.f1c3b838.chunk.css"
   },
   {
-    "revision": "0b4eca262b5377594093",
-    "url": "/mwapp/static/js/2.ea367927.chunk.js"
+    "revision": "a1a49cbb7d83be463a5d",
+    "url": "/mwapp/static/js/2.e5ee2e11.chunk.js"
   },
   {
     "revision": "60f6bf9e100e456690e9ab6c9a37bfc2",
-    "url": "/mwapp/static/js/2.ea367927.chunk.js.LICENSE.txt"
+    "url": "/mwapp/static/js/2.e5ee2e11.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ca7d86541429c8c90e1",
-    "url": "/mwapp/static/js/3.ae798ee6.chunk.js"
+    "revision": "6025c3e21a5ee172412b",
+    "url": "/mwapp/static/js/3.8fde2bfd.chunk.js"
   },
   {
-    "revision": "f3e4bd3bea783ec1bd2f",
-    "url": "/mwapp/static/js/main.69b638d6.chunk.js"
+    "revision": "21882d830ef6fb504c1a",
+    "url": "/mwapp/static/js/main.49b5e65a.chunk.js"
   },
   {
-    "revision": "6900f1b01ae1553f7337",
-    "url": "/mwapp/static/js/runtime-main.580f039d.js"
+    "revision": "5ceefd38c77d4afd33eb",
+    "url": "/mwapp/static/js/runtime-main.477a79f5.js"
   },
   {
     "revision": "27102d0e7372881b25ae2d4fcf087fb1",
@@ -74,6 +74,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d93f66a43da2fa657aba0f046039174b",
     "url": "/mwapp/static/media/more_gameplay.d93f66a4.gif"
+  },
+  {
+    "revision": "bec783f5fd6e91c1fb7fd82dc6a970b6",
+    "url": "/mwapp/static/media/physics.bec783f5.png"
+  },
+  {
+    "revision": "69f40532c6e9a8dc49303d2a82b4bb5f",
+    "url": "/mwapp/static/media/physics2.69f40532.gif"
+  },
+  {
+    "revision": "fd18b48bd8e8d3363ea606cb0a700a48",
+    "url": "/mwapp/static/media/physics3.fd18b48b.gif"
   },
   {
     "revision": "c8debbd5a8bb4419ffa003d71f305b5c",
