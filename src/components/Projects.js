@@ -22,11 +22,11 @@ const Projects = () => {
                 <div class="row justify-content-center">
                
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modal8">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Physics Simulation</div>
+                                <div class="portfolio-item-caption-content text-center text-white">Automated Image Geolocation</div>
                             </div>
-                            <img class="img-fluid" src={physicsImg} alt="..." />
+                            <img class="img-fluid" src={aoImg} alt="..." />
                         </div>
                     </div>
 
@@ -36,15 +36,6 @@ const Projects = () => {
                                 <div class="portfolio-item-caption-content text-center text-white">AI Chess Engine</div>
                             </div>
                             <img class="img-fluid" src={chessImg} alt="..." />
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Automated Image Geolocation</div>
-                            </div>
-                            <img class="img-fluid" src={aoImg} alt="..." />
                         </div>
                     </div>
                    
@@ -63,6 +54,15 @@ const Projects = () => {
                                 <div class="portfolio-item-caption-content text-center text-white">Digital Pathology Neural Network</div>
                             </div>
                             <img class="img-fluid" src={tilsImg} alt="..." />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#modal8">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Physics Simulation</div>
+                            </div>
+                            <img class="img-fluid" src={physicsImg} alt="..." />
                         </div>
                     </div>
                  
