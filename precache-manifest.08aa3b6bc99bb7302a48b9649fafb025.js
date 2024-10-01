@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ffe4ff0503b9cfd5b990a4e35763d3e",
+    "revision": "2578bb065e98078ec66cd5021a1e4ea2",
     "url": "/mwapp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mwapp/static/css/2.b71989ea.chunk.css"
   },
   {
-    "revision": "951f2587c88f3f5d1302",
+    "revision": "ba53fa4719eb35924d71",
     "url": "/mwapp/static/css/main.f1c3b838.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mwapp/static/js/3.8fde2bfd.chunk.js"
   },
   {
-    "revision": "951f2587c88f3f5d1302",
-    "url": "/mwapp/static/js/main.675041f7.chunk.js"
+    "revision": "ba53fa4719eb35924d71",
+    "url": "/mwapp/static/js/main.70d21e88.chunk.js"
   },
   {
     "revision": "5ceefd38c77d4afd33eb",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mwapp/static/media/more_gameplay.d93f66a4.gif"
   },
   {
-    "revision": "bec783f5fd6e91c1fb7fd82dc6a970b6",
-    "url": "/mwapp/static/media/physics.bec783f5.png"
+    "revision": "5497f1a2863f167797b004234c77d9d9",
+    "url": "/mwapp/static/media/physics.5497f1a2.png"
   },
   {
     "revision": "69f40532c6e9a8dc49303d2a82b4bb5f",
