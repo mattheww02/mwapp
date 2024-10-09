@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b9092f270b6df524fd72e08b9e01ced",
+    "revision": "c8d06c7996244e6b2eae3e7302c8ec1e",
     "url": "/mwapp/index.html"
   },
   {
-    "revision": "a1a49cbb7d83be463a5d",
+    "revision": "413f0de8a078a8d1af8e",
     "url": "/mwapp/static/css/2.b71989ea.chunk.css"
   },
   {
-    "revision": "ba53fa4719eb35924d71",
+    "revision": "00a17d56909e50c13b39",
     "url": "/mwapp/static/css/main.f1c3b838.chunk.css"
   },
   {
-    "revision": "a1a49cbb7d83be463a5d",
-    "url": "/mwapp/static/js/2.e5ee2e11.chunk.js"
+    "revision": "413f0de8a078a8d1af8e",
+    "url": "/mwapp/static/js/2.f217fa28.chunk.js"
   },
   {
     "revision": "60f6bf9e100e456690e9ab6c9a37bfc2",
-    "url": "/mwapp/static/js/2.e5ee2e11.chunk.js.LICENSE.txt"
+    "url": "/mwapp/static/js/2.f217fa28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6025c3e21a5ee172412b",
-    "url": "/mwapp/static/js/3.8fde2bfd.chunk.js"
+    "revision": "f70dcf82c779321d6841",
+    "url": "/mwapp/static/js/3.82654c3d.chunk.js"
   },
   {
-    "revision": "ba53fa4719eb35924d71",
-    "url": "/mwapp/static/js/main.70d21e88.chunk.js"
+    "revision": "00a17d56909e50c13b39",
+    "url": "/mwapp/static/js/main.7c176705.chunk.js"
   },
   {
-    "revision": "5ceefd38c77d4afd33eb",
-    "url": "/mwapp/static/js/runtime-main.477a79f5.js"
+    "revision": "49cc6de14eb43ad4986c",
+    "url": "/mwapp/static/js/runtime-main.f6985343.js"
   },
   {
     "revision": "27102d0e7372881b25ae2d4fcf087fb1",
@@ -46,6 +46,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee20b5b22fac6b4fa432eb02aceb1d28",
     "url": "/mwapp/static/media/autoosint.ee20b5b2.png"
+  },
+  {
+    "revision": "68320d6ce61b49886dc9dbf97e329017",
+    "url": "/mwapp/static/media/board.68320d6c.png"
+  },
+  {
+    "revision": "341062009856d81371ddc86016498677",
+    "url": "/mwapp/static/media/board_page1.34106200.png"
+  },
+  {
+    "revision": "b2f9f55d3bdd1a44b6f638ceee988099",
+    "url": "/mwapp/static/media/board_page2.b2f9f55d.png"
   },
   {
     "revision": "c36eb55c2b8ce4b0886371036600978f",
