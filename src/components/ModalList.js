@@ -19,6 +19,9 @@ import chessGif from '../assets/img/projects/chess.gif';
 import physicsImg from '../assets/img/projects/physics.png';
 import physicsGif2 from '../assets/img/projects/physics2.gif';
 import physicsGif3 from '../assets/img/projects/physics3.gif';
+import boardImg from '../assets/img/projects/board.png';
+import boardPageImg from '../assets/img/projects/board_page1.png';
+import boardPageImg2 from '../assets/img/projects/board_page2.png';
 
 const ModalList = () => {
   const modals = [
@@ -209,6 +212,28 @@ const ModalList = () => {
             </p>
         ),
         imageUrl: physicsImg
+    },
+    {
+        id: 'modal9',
+        title: 'InstaBoard',
+        content: (
+            <p>
+                <img src={boardPageImg} alt="InstaBoard Home Page" className="img-fluid mb-4" />
+                <p style={{ textAlign: "justify" }}>
+                    This app was created to allow users to collaborate in real-time with the help of text chats and drawings.
+                    The app's backend was built using C# and ASP.NET. For the frontend, I used React with TypeScript.
+                </p>
+                <p style={{ textAlign: "justify" }}>    
+                    The site is lightweight and simple—there's no need to create an account or give personal details.
+                    To ensure the best performance, InstaBoard uses websockets and a multi-threaded web server to communicate with clients.
+                </p>
+                <img src={boardPageImg2} alt="Physics Simulation GIF" className="img-fluid mb-4" />
+                <p>
+                    View the project repo <a href="https://github.com/mattheww02/instaboard">here</a>.
+                </p>
+            </p>
+        ),
+        imageUrl: boardImg
     }
   ];
 
